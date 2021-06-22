@@ -24,3 +24,14 @@ string = bold & em = italic
 
 <p><em> my name is abhi </em><p>
 <p><b> my name is abhi </b><p>
+
+# ordered and unorederd and nested list
+these tags are used to make a list of items 
+nested tag is a list inside the unordered list
+# br
+br is used to make a line break can use between para and headings 
+
+# image img and hr
+image tag is used to insert an image from external or internal source 
+hr shows th horizontal line 
+
