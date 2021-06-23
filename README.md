@@ -35,3 +35,9 @@ br is used to make a line break can use between para and headings
 image tag is used to insert an image from external or internal source 
 hr shows th horizontal line 
 
+# anchor tag
+anchor tag makes to connect to the another internal web pages 
+used to link the web pages
+# absolute and relative path
+absolute path = https link
+relative path = /directory/file.html = inter linked 
