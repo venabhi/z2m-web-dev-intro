@@ -1,17 +1,32 @@
-/* normal syntax */
-
-selector {
-    name: value;
-}
-
-h2 {
-    color: red;
-}
-
-p {
-    color: blue;
-}
-
-h2 {
-    color: green;
-}
+            /* normal syntax */
+            /*  csstricks = we can find all the properties */
+            
+            selector {
+                name: value;
+            }
+            
+            h2 {
+                color: red;
+                text-align: center;
+                border: 5px solid rgb(20, 233, 0);
+            }
+            
+            p {
+                color: blue;
+            }
+            
+            h2 {
+                color: green;
+            }
+            
+            body {
+                background-image: url();
+                background-size: cover;
+            }
+            
+            li {
+                list-style: none;
+                /* display: inline;  it will combine a single line */
+                display: block;
+                /*  it will start ne line */
+            }
