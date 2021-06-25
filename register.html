@@ -9,16 +9,27 @@
 </head>
 
 <body>
-    <form action="">
-        FirstName: <input type="text"><br> LastName: <input type="text"><br> Email: <input type="email" required><br> Birthday: <input type="date"><br> Gender: <br>
-        <input type="radio" name="gender"> male<br>
-        <input type="radio" name="gender"> femal<br>
-        <input type="radio" name="gender"> others<br> Pets: <br>
-        <input type="checkbox">cat<br>
-        <input type="checkbox">dog<br>
+    <div>
+        <!--  div used to divide in to blocks and add styles -->
+    </div>
+    <span>
+        <!--  span is used for inline content take particular content and add span and make changes -->
+    </span>
+    <form method="POST" action="">
+        FirstName: <input type="text" name="firstname"><br> LastName: <input type="text" name="lastname"><br> Email: <input type="email" required><br> Birthday: <input type="date"><br> Gender: <br>
+        <input type="radio" name="gender" value="male"> male<br>
+        <input type="radio" name="gender" value="female"> female<br>
+        <input type="radio" name="gender" value="others"> others<br> Pets: <br>
+        <input type="checkbox" name="pet">cat<br>
+        <input type="checkbox">dog<br> cars:
+        <select name="cars">
+            <option value="volvo">volvo</option>
+            <option value=  "kia">kia</option>
+        </select>
         <input type="submit" value="register"><br>
         <input type="reset">
     </form>
+    <button>clickme</button>
 </body>
 
 </html>
