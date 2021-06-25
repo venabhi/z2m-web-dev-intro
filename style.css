@@ -1,0 +1,17 @@
+/* normal syntax */
+
+selector {
+    name: value;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
