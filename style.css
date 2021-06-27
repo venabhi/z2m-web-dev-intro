@@ -1,68 +1,42 @@
-            /* normal syntax */
-            /*  csstricks = we can find all the properties */
-            
-            selector {
-                name: value;
-            }
-            
-            h2 {
-                color: red;
-                text-align: center;
-                border: 5px solid rgb(20, 233, 0);
-            }
-            
-            p {
-                color: blue;
-            }
-            
-            h2 {
-                color: green;
-            }
-            
-            body {
-                background-image: url();
-                background-size: cover;
-                text-align: ;
-            }
-            
-            li {
-                list-style: none;
-                /* display: inline;  it will combine a single line */
-                display: block;
-                /*  it will start ne line */
-            }
-            
-            .class:hover {
-                text-transform: capitalize;
-            }
-            
-            #div1 {
-                text-align: center !important;
-            }
-            /* specificity=0023 */
-            /*  specificity is like priority it will increase specificity by add elements */
-            
-            * {
-                font-size: medium;
-            }
-            
-            p {
-                text-decoration: underline;
-                text-transform: uppercase;
-                line-height: 20px;
-                font-style: italic;
-                font-weight: bold;
-                font-size: 80%;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            /*  this property is designed for the text right or left to the image = float  */
-            
-            img {
-                float: right;
-            }
-            /*  clear property will remove all the messed stuff and make clear  */
-            
-            footer {
-                clear: both;
-                text-align: center;
-            }
+       /* h1 {
+            color: chartreuse;  
+            font-size: 50px;
+        }
+     h1
+        h2 {
+            color: red;
+            font-size: 20px;
+        } */
+        /* h3{
+            color: blue;
+            font-size: 40px;
+        } */
+
+        /* css rule */
+        /*  h1 = selector */
+        /* cplor = property */
+        /* vale = red */
+        /* declaration = whole line */
+
+        /*  element selector  you can select particulat element */
+        /* example */
+        h1 {
+            color: blue;
+        }
+        h2 {
+            color: green;
+        
+        }
+        h3 {
+            color: red;
+        }
+
+        /* grouping selectors */
+        /*  by using gs you can keep same colors for all selectors */
+        /* syntac or example */
+        h1,h2,h3
+        {
+            color: green;
+        }
+
+

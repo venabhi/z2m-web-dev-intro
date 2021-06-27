@@ -1,0 +1,23 @@
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+}
+img{
+    float: right;
+}
+p{
+    clear:right;
+}
+.bann{
+    border: 5px solid red;
+    padding: 10px;
+    float: left;
+    clear: left;
+}
+.two{
+    float: left;
+    height: 300px;
+}
+p{
+    clear: both;
+}
