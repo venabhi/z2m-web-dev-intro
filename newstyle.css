@@ -7,6 +7,18 @@
     height: 55px;
 }
 
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 2em;
+}
+
+p {
+    font-size: 4rem;
+}
+
 
 /*  inline-block it will get al the blocks in one line */
 
@@ -15,3 +27,6 @@
 
 
 /*  in the box model we can change content using width and height */
+
+
+/*  rem is twice to the root element  */
