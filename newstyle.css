@@ -1,0 +1,17 @@
+.box {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 20px 0px 20px;
+    width: 33px;
+    height: 55px;
+}
+
+
+/*  inline-block it will get al the blocks in one line */
+
+
+/*  top & right , bottom & left  */
+
+
+/*  in the box model we can change content using width and height */
