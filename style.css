@@ -22,6 +22,7 @@
             body {
                 background-image: url();
                 background-size: cover;
+                text-align: ;
             }
             
             li {
@@ -29,4 +30,16 @@
                 /* display: inline;  it will combine a single line */
                 display: block;
                 /*  it will start ne line */
+            }
+            
+            .class:hover {
+                text-transform: capitalize;
+            }
+            
+            #div1 {
+                text-align: center !important;
+            }
+            
+            * {
+                font-size: medium;
             }

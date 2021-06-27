@@ -41,3 +41,14 @@ used to link the web pages
 # absolute and relative path
 absolute path = https link
 relative path = /directory/file.html = inter linked 
+# css selectore 
+.class
+#id
+element, element
+element element = h1(p) means all the p's inside the h1 
+element > element  = h2(p) all the p are child of h2 so css apply to the parent
+element + element = example h4, p so all the h4 and the next right elemet ar appliocable
+:hover = it will remove the style but when we move crusor on the lins the style will come back like animation
+:last-child :    a div has mny p's ij the list we can make to the style to the fist-chiled p / last- child p
+:first-child: a list of first p
+!important = not recomended mostly   = !important, thye style is style 
