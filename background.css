@@ -1,0 +1,68 @@
+div{
+    color: black;
+    height: 400px;
+    border-radius: 4px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    align-items: center;
+    
+}
+.one{
+   background: linear-gradient(red,green)
+}
+.bigs {
+    background: url(./background1.jpeg);
+}
+.smalls {
+    background: url(./background1.jpeg);
+    background-repeat: no-repeat;
+    background-repeat: round;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: no-repeat;
+    background-repeat: space;
+    background-repeat: repeat;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+    background-position: right;
+    background-position: 50% 75%;
+    background-position: initial;
+    background-position: center;
+    /* background:  url(./cat.jpg), cnter/cover no-repeat fixed; */
+}
+.small{
+    background: url(./background1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background:  url(./cat.jpg), cnter/cover no-repeat fixed; */
+}
+.big{
+    background:  url(./cat.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*  attachment means content will move but image fixed  */
+    /* background:  url(./cat.jpg), cnter/cover no-repeat fixed; */
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+/*  linear-gradient */
+/*  to top, to bottom,to top right, 200drg, rgba all are parameters */
+/* background:  url(./cat.jpg), cnter/cover no-repeat fixed; */
+.colorzilla{
+    /*  here simply copy and paste the code from colozilla */
+}

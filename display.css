@@ -1,0 +1,66 @@
+.block {
+    background: blue;
+    color: white;
+    display: block;
+    /* display: inline; */
+}
+.inline{
+    background: red;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+/*  display properties  */
+/*  1. block class and inline class elements  */
+/* block will start new line and span everything */
+/*  inline will not start new line  */
+
+/*  NAVIGATION BAR  */
+*{
+    padding: 0rem;
+    margin: 0rem;
+
+}
+ul li {
+    list-style-type: none;
+}
+ul li a {
+ color: brown; 
+ text-decoration: none;  
+ letter-spacing: 0.5rem;
+}
+.box1, .box2, .box3
+    width: 200px;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    margin: 50px;
+}
+.box1 {
+    background: red;
+
+}
+.box2 {
+    background: red;
+}
+.box3 {
+    background: tomato;
+    height: 300px;
+}
+
+/* display inline-block, none, opacity , visibily */
+/*  in none= element is present but you ca niot see in page 
+opacity =  transparent the color
+visibility = visible of the content */
+.none {
+    display: none;
+}
+.opacity {
+    opacity: 0;
+}
+.visibility {
+    visibility: hidden;
+}
+.class {
+    color: black}
