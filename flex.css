@@ -19,6 +19,7 @@ h1 {
     width: 400px;
     text-align: center;
     border-right: 2px solid red;
+    box-shadow: 4px 4px 5px red;
 }
 
 img:hover {
