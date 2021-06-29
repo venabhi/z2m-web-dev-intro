@@ -2,6 +2,7 @@ img {
     width: 450px;
     height: 300px;
     margin: 10px;
+    transition: all 1s;
 }
 
 .container {
@@ -18,4 +19,8 @@ h1 {
     width: 400px;
     text-align: center;
     border-right: 2px solid red;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
